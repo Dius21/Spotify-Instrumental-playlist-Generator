@@ -9,7 +9,7 @@ import time
 
 #authentication -- User OAuth2
 scope = "playlist-read-private playlist-read-collaborative playlist-modify-private playlist-modify-public user-library-modify user-library-read"
-sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="xxxxxxxxxxxxxxxxx", client_secret="xxxxxxxxxxxxxxxxxx", scope=scope, redirect_uri="http://localhost:8080"))
+sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="YOUR_SPOTIFY_CLIENT_ID", client_secret="YOUR_SPOTIFY_CLIENT_SECRET", scope=scope, redirect_uri="http://localhost:8080"))
 
 #getting the tracks
 playlist_uri = input("Enter link to playlist:").split("/")[-1].split("?")[0]
