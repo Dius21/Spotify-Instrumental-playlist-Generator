@@ -5,7 +5,7 @@ import subprocess as x
 import time
 
 #The api keys have been removed from this source code so it is not going to be functional.
-#You can get key and secret from spotify developers webpage and copy paste it where there are 'x's
+#You can get key and secret from spotify developers webpage and copy paste it.
 
 #authentication -- User OAuth2
 scope = "playlist-read-private playlist-read-collaborative playlist-modify-private playlist-modify-public user-library-modify user-library-read"
