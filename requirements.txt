@@ -1,4 +1,4 @@
 Spotipy==2.22.1
 
-You will also need:
-Spotify Developer api keys (create account at https://developer.spotify.com/)
+# You will also need:
+# Spotify Developer api keys (create account at https://developer.spotify.com/)
